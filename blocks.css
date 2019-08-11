@@ -8,7 +8,7 @@
 	background-color: white;
 	padding: 20px;
 	margin: 20px;
-	height: 250px;
+	height: 350px;
 }
 
 .soundcloud {
@@ -16,4 +16,12 @@
 	padding: 20px;
 	margin: 20px;
 	height: 400px;
+}
+
+#panda {
+	height: 144px;
+}
+
+#such_empty {
+	height: 144px;
 }
