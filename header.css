@@ -7,7 +7,7 @@ body {
 	padding: 10px;
 	margin: 10px;
 	background-color: #d1d1d1;
-	background-image: url("background.jpg");
+	background-image: url("./images/background.jpg");
 	background-attachment: fixed;
 	background-size: 1500px;
 }
@@ -18,7 +18,7 @@ body {
 	padding-bottom: 60px;
 	text-align: center;
 	background-color: black;
-	background-image: url("trollmix.jpg");
+	background-image: url("./images/trollmix.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 	background-size: auto;
