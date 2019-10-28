@@ -3,8 +3,27 @@ var map = new mapboxgl.Map({
   container: 'map', // container id
   style: 'mapbox://styles/mapbox/outdoors-v11', // stylesheet location
   center: [ 7.4, 62.42 ], // starting position [lng, lat]
-  zoom: 11.5, // starting zoom
+  zoom: 11.6, // starting zoom
 });
+
+var firstname = null;
+
+fetch('https://www.strava.com/api/v3/athlete', {
+  method: 'GET',
+  headers: {
+    authorization: 'Bearer 01cbea5e07bf9c3c231f67ff28e04288fe1cab29',
+  },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+    firstname = data.firstname + ' ' + data.lastname;
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 map.on('load', function() {
   map.addLayer({
@@ -15,6 +34,17 @@ map.on('load', function() {
       data: {
         type: 'FeatureCollection',
         features: [
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [ 7.42, 62.433 ],
+            },
+            properties: {
+              title: 'Hytta til ' + firstname,
+              icon: 'harbor',
+            },
+          },
           {
             type: 'Feature',
             geometry: {

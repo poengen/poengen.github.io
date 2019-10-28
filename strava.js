@@ -1,17 +1,18 @@
-var StravaApiV3 = require('strava_api_v3');
-var defaultClient = StravaApiV3.ApiClient.instance;
+const myHeaders = new Headers();
+myHeaders.append('Authorization', 'Bearer 01cbea5e07bf9c3c231f67ff28e04288fe1cab29');
 
-// Configure OAuth2 access token for authorization: strava_oauth
-var strava_oauth = defaultClient.authentications['strava_oauth'];
-strava_oauth.accessToken = 'ce02ae6cd2e752fb8d7d58c81044af151ce90c02';
-
-var api = new StravaApiV3.AthletesApi();
-
-var callback = function(error, data, response) {
-	if (error) {
-		console.error(error);
-	} else {
-		console.log('API called successfully. Returned data: ' + data);
-	}
-};
-api.getLoggedInAthlete(callback);
+fetch('https://www.strava.com/api/v3/athlete', {
+  method: 'GET',
+  headers: {
+    authorization: 'Bearer 01cbea5e07bf9c3c231f67ff28e04288fe1cab29',
+  },
+})
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
