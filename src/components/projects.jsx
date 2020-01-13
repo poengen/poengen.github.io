@@ -25,7 +25,7 @@ export default class Projects extends Component {
             <div className="row">
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div
                   className="project"
@@ -48,7 +48,7 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInBottom"
               >
                 <div
                   className="project"
@@ -94,7 +94,7 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInBottom"
+                data-animate-effect="fadeInRight"
               >
                 <div
                   className="project"
@@ -111,6 +111,98 @@ export default class Projects extends Component {
                         </a>
                       </h3>
                       <span>Weather</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  className="project"
+                  style={{
+                    backgroundImage:
+                      'url(images/img-3.jpg)',
+                  }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://poengen.github.io/components/">
+                          Components
+                        </a>
+                      </h3>
+                      <span>App</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInRight"
+              >
+                <div
+                  className="project"
+                  style={{
+                    backgroundImage:
+                      'url(images/img-4.jpg)',
+                  }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://poengen.github.io/pics/">
+                          Pictures
+                        </a>
+                      </h3>
+                      <span>App</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  className="project"
+                  style={{
+                    backgroundImage:
+                      'url(images/img-5.jpg)',
+                  }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://poengen.github.io/songs/">
+                          Songs
+                        </a>
+                      </h3>
+                      <span>App</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInBottom"
+              >
+                <div
+                  className="project"
+                  style={{
+                    backgroundImage:
+                      'url(images/img-6.jpg)',
+                  }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://poengen.github.io/videos/">
+                          Videos
+                        </a>
+                      </h3>
+                      <span>App</span>
                     </div>
                   </div>
                 </div>
