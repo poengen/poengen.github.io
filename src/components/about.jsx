@@ -77,7 +77,7 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Test Development</h3>
                     <p>
-                      Bulding automated tests using Node.js
+                      Building automated tests using Node.js
                       frameworks Protractor, Jasmine,
                       Puppeteer, CodeceptJS
                     </p>

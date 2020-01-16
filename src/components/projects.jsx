@@ -41,7 +41,30 @@ export default class Projects extends Component {
                           MapBox and React
                         </a>
                       </h3>
-                      <span>Website</span>
+                      <span>GH-pages application</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  className="project"
+                  style={{
+                    backgroundImage:
+                      'url(images/mymountainsmap-logo-design-color.jpg)',
+                  }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://my-mountains-map.firebaseapp.com/">
+                          My Mountains Map - MMM
+                        </a>
+                      </h3>
+                      <span>Firebase Application</span>
                     </div>
                   </div>
                 </div>
