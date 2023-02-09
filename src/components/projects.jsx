@@ -1,24 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export default class Projects extends Component {
   render() {
     return (
       <div>
-        <section
-          className="colorlib-work"
-          data-section="projects"
-        >
+        <section className="colorlib-work" data-section="projects">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span className="heading-meta">
-                  My Work
-                </span>
+                <span className="heading-meta">My Work</span>
                 <h2 className="colorlib-heading animate-box">
-                  Recent Projects
+                  Recent Side Projects
                 </h2>
               </div>
             </div>
@@ -31,17 +26,18 @@ export default class Projects extends Component {
                   className="project"
                   style={{
                     backgroundImage:
-                      'url(images/mapboxandreact_icon.jpg)',
+                      "url(images/side-projects/Shipment-List.png)",
                   }}
                 >
                   <div className="desc">
                     <div className="con">
                       <h3>
-                        <a href="https://poengen.github.io/mapboxAndReact/">
-                          MapBox and React
-                        </a>
+                        <a href="https://www.fraitforwarding.com">Frait</a>
                       </h3>
-                      <span>GH-pages application</span>
+                      <span>
+                        A digital freight forwarding platform offering b2b
+                        solutions in the seafood trade.
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -54,17 +50,23 @@ export default class Projects extends Component {
                   className="project"
                   style={{
                     backgroundImage:
-                      'url(images/mymountainsmap-logo-design-color.jpg)',
+                      "url(images/side-projects/FDB-Square-Marine-Logo.png)",
                   }}
                 >
                   <div className="desc">
                     <div className="con">
                       <h3>
-                        <a href="https://my-mountains-map.firebaseapp.com/">
-                          My Mountains Map - MMM
+                        <a href="https://fjelldatabasen.web.app/">
+                          Fjelldatabasen
                         </a>
                       </h3>
-                      <span>Firebase Application</span>
+                      <span>
+                        Climb mountains while using Strava and collect summits
+                        in this application.
+                        <br />
+                        An app I developed sparked by my interest in mountains
+                        and running.
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -77,7 +79,7 @@ export default class Projects extends Component {
                   className="project"
                   style={{
                     backgroundImage:
-                      'url(images/tictactoe_icon.jpg)',
+                      "url(images/side-projects/tictactoe_icon.png)",
                   }}
                 >
                   <div className="desc">
@@ -87,145 +89,7 @@ export default class Projects extends Component {
                           Tic Tac Toe
                         </a>
                       </h3>
-                      <span>Game</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInBottom"
-              >
-                <div
-                  className="project"
-                  style={{
-                    backgroundImage:
-                      'url(images/img-1.jpg)',
-                  }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="https://poengen.github.io/jsx/">
-                          JSX
-                        </a>
-                      </h3>
-                      <span>Form</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInRight"
-              >
-                <div
-                  className="project"
-                  style={{
-                    backgroundImage:
-                      'url(images/img-2.jpg)',
-                  }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="https://poengen.github.io/seasons/">
-                          Seasons
-                        </a>
-                      </h3>
-                      <span>Weather</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <div
-                  className="project"
-                  style={{
-                    backgroundImage:
-                      'url(images/img-3.jpg)',
-                  }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="https://poengen.github.io/components/">
-                          Components
-                        </a>
-                      </h3>
-                      <span>App</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInRight"
-              >
-                <div
-                  className="project"
-                  style={{
-                    backgroundImage:
-                      'url(images/img-4.jpg)',
-                  }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="https://poengen.github.io/pics/">
-                          Pictures
-                        </a>
-                      </h3>
-                      <span>App</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <div
-                  className="project"
-                  style={{
-                    backgroundImage:
-                      'url(images/img-5.jpg)',
-                  }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="https://poengen.github.io/songs/">
-                          Songs
-                        </a>
-                      </h3>
-                      <span>App</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInBottom"
-              >
-                <div
-                  className="project"
-                  style={{
-                    backgroundImage:
-                      'url(images/img-6.jpg)',
-                  }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="https://poengen.github.io/videos/">
-                          Videos
-                        </a>
-                      </h3>
-                      <span>App</span>
+                      <span>Try playing this small game :) </span>
                     </div>
                   </div>
                 </div>

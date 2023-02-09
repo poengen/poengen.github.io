@@ -12,7 +12,9 @@ export default class Timeline extends Component {
                 data-animate-effect="fadeInLeft"
               >
                 <span className="heading-meta">highlights</span>
-                <h2 className="colorlib-heading animate-box">Timeline</h2>
+                <h2 className="colorlib-heading animate-box">
+                  Professional Timeline
+                </h2>
               </div>
             </div>
             <div className="row">
@@ -89,10 +91,34 @@ export default class Timeline extends Component {
                   </article>
                   <article
                     className="timeline-entry animate-box"
-                    data-animate-effect="fadeInLeft"
+                    data-animate-effect="fadeInTop"
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Intern at VismoX (now Stages Flight) <span>2015</span>
+                        </h2>
+                        <p>
+                          Developing the physics engine of VismoX, a software
+                          product that enhances the indoor cycling experience.
+                          The company was later sold to one of the world largest
+                          manufacturers of indoor cycles, and the product was
+                          re-branded as Stages Flight.
+                          <br />
+                          <b>Skills: </b>Web Development
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
