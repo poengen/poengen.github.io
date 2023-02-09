@@ -123,7 +123,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Primary and Higher Education <span>2010 - 2016</span>
+                          Higher Education <span>2010 - 2016</span>
                         </h2>
                         <p>
                           I am a civil engineer holding a Master of Sciende
