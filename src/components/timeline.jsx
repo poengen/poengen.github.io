@@ -133,7 +133,8 @@ export default class Timeline extends Component {
                           mathematical modeling and numerical calculations.
                           <br />
                           <b>Skills: </b>Mathematical Modeling, Object Oriented
-                          Programming, Problem Solving
+                          Programming, Problem Solving, Algorithms, Data
+                          Structures, Data Science, Statistics
                         </p>
                       </div>
                     </div>
