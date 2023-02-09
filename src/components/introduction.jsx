@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export default class Introduction extends Component {
   render() {
@@ -13,7 +13,7 @@ export default class Introduction extends Component {
             <ul className="slides">
               <li
                 style={{
-                  backgroundImage: 'url(images/img_bg.jpg)',
+                  backgroundImage: "url(images/img_bg.jpg)",
                 }}
               >
                 <div className="overlay" />
@@ -23,7 +23,8 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>
-                            Hi! <br />I'm Pål Oskar
+                            Hi! <br />
+                            I'm Pål Oskar
                           </h1>
                           <p>
                             <a
@@ -32,7 +33,7 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View my consultant CV{' '}
+                              View my consultant CV{" "}
                               <i className="icon-download4" />
                             </a>
                           </p>
@@ -44,7 +45,7 @@ export default class Introduction extends Component {
               </li>
               <li
                 style={{
-                  backgroundImage: 'url(images/img_bg.jpg)',
+                  backgroundImage: "url(images/img_bg.jpg)",
                 }}
               >
                 <div className="overlay" />
@@ -54,7 +55,8 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I love building<br />
+                            I love building
+                            <br />
                             software!
                           </h1>
                           <p>
@@ -64,8 +66,7 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View Projects{' '}
-                              <i className="icon-briefcase3" />
+                              View Projects <i className="icon-briefcase3" />
                             </a>
                           </p>
                         </div>
@@ -76,7 +77,7 @@ export default class Introduction extends Component {
               </li>
               <li
                 style={{
-                  backgroundImage: 'url(images/img_bg.jpg)',
+                  backgroundImage: "url(images/img_bg.jpg)",
                 }}
               >
                 <div className="overlay" />
@@ -86,7 +87,8 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I sometimes <br />write...{' '}
+                            I sometimes <br />
+                            write...{" "}
                           </h1>
                           <p>
                             <a
@@ -95,8 +97,7 @@ export default class Introduction extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View Blog{' '}
-                              <i className="icon-book" />
+                              View Blog <i className="icon-book" />
                             </a>
                           </p>
                         </div>
