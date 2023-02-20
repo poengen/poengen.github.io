@@ -15,3 +15,10 @@ Builds the app for production to the `build` folder.<br />
 ### `npm run deploy`
 
 Deploys the app to [https://poengen.github.io/](https://poengen.github.io/)
+<br />
+
+## Documentation
+
+#### Icons from here:
+
+[https://github.com/seanyeh/fontawesome-svgs](https://github.com/seanyeh/fontawesome-svgs)
