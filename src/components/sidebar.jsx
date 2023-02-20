@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export default class Sidebar extends Component {
   render() {
@@ -15,29 +15,23 @@ export default class Sidebar extends Component {
           >
             <i />
           </nav>
-          <aside
-            id="colorlib-aside"
-            className="border js-fullheight"
-          >
+          <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
               <div
                 className="author-img"
                 style={{
-                  backgroundImage: 'url(images/about.jpg)',
+                  backgroundImage: "url(images/about.jpg)",
                 }}
               />
               <h1 id="colorlib-logo">
                 <a href="index.html">Pål Oskar Engen</a>
               </h1>
               <span className="email">
-                <i className="icon-mail" />pal.oskar.engen@gmail.com
+                <i className="icon-mail" />
+                pal.oskar.engen@gmail.com
               </span>
             </div>
-            <nav
-              id="colorlib-main-menu"
-              role="navigation"
-              className="navbar"
-            >
+            <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active">
@@ -46,18 +40,12 @@ export default class Sidebar extends Component {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#about"
-                      data-nav-section="about"
-                    >
+                    <a href="#about" data-nav-section="about">
                       About
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#projects"
-                      data-nav-section="projects"
-                    >
+                    <a href="#projects" data-nav-section="projects">
                       Projects
                     </a>
                   </li>
@@ -109,15 +97,6 @@ export default class Sidebar extends Component {
                     rel="noopener noreferrer"
                   >
                     <i className="icon-github" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://medium.com/@ploskarengen"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-blogger2" />
                   </a>
                 </li>
               </ul>
