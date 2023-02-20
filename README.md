@@ -22,3 +22,7 @@ Deploys the app to [https://poengen.github.io/](https://poengen.github.io/)
 #### Icons from here:
 
 [https://github.com/seanyeh/fontawesome-svgs](https://github.com/seanyeh/fontawesome-svgs)
+
+#### Github pages docs
+
+[https://docs.github.com/en/pages/quickstart](https://docs.github.com/en/pages/quickstart)
