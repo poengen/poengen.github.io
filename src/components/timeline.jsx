@@ -25,6 +25,28 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          CTO at Frait <span>2022 - present</span>
+                        </h2>
+                        <p>
+                          Frait is an early stage start-up providing a digital
+                          platform for freight forwarding.
+                          <br />
+                          <b>Skills: </b>Node.js, React, Figma, AWS, RestAPI,
+                          GraphQL, MongoDB, Auth0
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
                         <i className="icon-pen2" />
                       </div>
@@ -37,15 +59,16 @@ export default class Timeline extends Component {
                           stack developer. I have had other roles as well, like
                           squad lead and project lead.
                           <br />
-                          <b>Skills: </b>Node.js, React, Kotlin, Gradle, Docker,
-                          Ansible
+                          <b>Skills: </b>Node.js, React, Typescript, Figma,
+                          Kotlin, Gradle, Docker, Ansible, TeamCity, Oracle
+                          Cloud, Sql Developer
                         </p>
                       </div>
                     </div>
                   </article>
                   <article
                     className="timeline-entry animate-box"
-                    data-animate-effect="fadeInTop"
+                    data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-2">
@@ -68,7 +91,7 @@ export default class Timeline extends Component {
                   </article>
                   <article
                     className="timeline-entry animate-box"
-                    data-animate-effect="fadeInTop"
+                    data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
@@ -91,7 +114,7 @@ export default class Timeline extends Component {
                   </article>
                   <article
                     className="timeline-entry animate-box"
-                    data-animate-effect="fadeInTop"
+                    data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
@@ -129,22 +152,15 @@ export default class Timeline extends Component {
                           I am a civil engineer holding a Master of Sciende
                           (MSc) in Physics and Mathematics. I developed my
                           interest in solving complex problems involving high
-                          theoretical and practical knowledge of programming,
-                          mathematical modeling and numerical calculations.
+                          theoretical and practical knowledge of physics,
+                          mathematical modeling, numerical methods and
+                          programming.
                           <br />
                           <b>Skills: </b>Mathematical Modeling, Object Oriented
                           Programming, Problem Solving, Algorithms, Data
                           Structures, Data Science, Statistics
                         </p>
                       </div>
-                    </div>
-                  </article>
-                  <article
-                    className="timeline-entry begin animate-box"
-                    data-animate-effect="fadeInBottom"
-                  >
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none" />
                     </div>
                   </article>
                 </div>

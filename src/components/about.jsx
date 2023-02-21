@@ -16,9 +16,9 @@ export default class About extends Component {
                     <div className="about-desc">
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
-                      <p>I am a Software Developer at Elhub.</p>
                       <p>
-                        I have created this page to share my learnings in
+                        I am a Software Developer at Elhub. <br /> I have
+                        created this page to share my learnings and doings in
                         software development.
                       </p>
                     </div>
@@ -45,13 +45,16 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                   <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-phone3" />
                   </span>
                   <div className="desc">
-                    <h3>Web Development </h3>
+                    <h3>Fullstack Developer</h3>
                     <p>
-                      I have experience creating websites using JavaScript,
-                      React, HTML, CSS, and designwork using Figma
+                      I have enjoyed working on multiple web app projects, and I
+                      really like to be able to learn a lot of everything. Some
+                      of the things I've done includes design work, front-end
+                      development, back-end development and API's, as well as
+                      database development, pipeline work and cloud hosting.
                     </p>
                   </div>
                 </div>
@@ -59,13 +62,17 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                   <span className="icon">
-                    <i className="icon-phone3" />
+                    <i className="icon-data" />
                   </span>
                   <div className="desc">
-                    <h3>Test Development</h3>
+                    <h3>Quality and Devops Engineer</h3>
                     <p>
-                      Building automated tests using Node.js frameworks
-                      Protractor, Jasmine, Puppeteer, CodeceptJS
+                      Working with quality assurance like automated testing and
+                      CI/CD is one of my specialities. I believe that a strong
+                      test strategy combined with the right tooling can give
+                      benefits in both quality and development speed. Being a
+                      good developer is all about integrating quality in your
+                      workflow!
                     </p>
                   </div>
                 </div>
@@ -73,13 +80,17 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                   <span className="icon">
-                    <i className="icon-data" />
+                    <i className="icon-bulb" />
                   </span>
                   <div className="desc">
-                    <h3>Project Management</h3>
+                    <h3>Project Manager</h3>
                     <p>
-                      As a consultant I have experience with Agile methods and
-                      using tools such as Jira and Confluence
+                      I try being an inclusive and goal-oriented leader. I've
+                      have had project lead and squad lead roles, working with
+                      scrum teams of 5-10 people. I have strong knowledge of
+                      agile methodologies and project managemenet related tools
+                      such as Jira and Confluence. I am also PRINCE2® and Scrum
+                      Master certified.
                     </p>
                   </div>
                 </div>

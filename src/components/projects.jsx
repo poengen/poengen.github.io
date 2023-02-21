@@ -20,7 +20,7 @@ export default class Projects extends Component {
             <div className="row">
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInBottom"
               >
                 <div
                   className="project"
@@ -34,39 +34,7 @@ export default class Projects extends Component {
                       <h3>
                         <a href="https://www.fraitforwarding.com">Frait</a>
                       </h3>
-                      <span>
-                        A digital freight forwarding platform offering b2b
-                        solutions in the seafood trade.
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <div
-                  className="project"
-                  style={{
-                    backgroundImage:
-                      "url(images/side-projects/FDB-Square-Marine-Logo.png)",
-                  }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a href="https://fjelldatabasen.web.app/">
-                          Fjelldatabasen
-                        </a>
-                      </h3>
-                      <span>
-                        Climb mountains while using Strava and collect summits
-                        in this application.
-                        <br />
-                        An app I developed sparked by my interest in mountains
-                        and running.
-                      </span>
+                      <span>A digital freight forwarding platform.</span>
                     </div>
                   </div>
                 </div>
@@ -79,17 +47,19 @@ export default class Projects extends Component {
                   className="project"
                   style={{
                     backgroundImage:
-                      "url(images/side-projects/tictactoe_icon.png)",
+                      "url(images/side-projects/FDB-Square-Marine-Logo.png)",
                   }}
                 >
                   <div className="desc">
                     <div className="con">
                       <h3>
-                        <a href="https://poengen.github.io/tic-tac-toe/">
-                          Tic Tac Toe
+                        <a href="https://main.d1rz7o3vemoq9w.amplifyapp.com/">
+                          Fjelldatabasen
                         </a>
                       </h3>
-                      <span>Try playing this small game :) </span>
+                      <span>
+                        An app for strava and mountain enthusiasts, like me :)
+                      </span>
                     </div>
                   </div>
                 </div>
