@@ -29,7 +29,8 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://www.dropbox.com/s/9094gbfu1x6bdw6/CV_shared.pdf?dl=0"
+                              href="/assets/CV_paloskar.pdf"
+                              download="CV_paloskar.pdf"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
