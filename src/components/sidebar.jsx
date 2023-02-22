@@ -33,12 +33,12 @@ export default class Sidebar extends Component {
               <span
                 className="email"
                 style={{
-                  "margin-bottom": "10px",
+                  marginBottom: "10px",
                   display: "flex",
-                  "justify-content": "center",
+                  justifyContent: "center",
                 }}
               >
-                <i className="icon-mail" style={{ "margin-right": "5px" }} />
+                <i className="icon-mail" style={{ marginRight: "5px" }} />
                 pal.oskar.engen@gmail.com
               </span>
             </div>
@@ -68,7 +68,7 @@ export default class Sidebar extends Component {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  "align-items": "center",
+                  alignItems: "center",
                 }}
               >
                 <li className="social-logos">
