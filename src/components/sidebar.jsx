@@ -15,7 +15,11 @@ export default class Sidebar extends Component {
           >
             <i />
           </nav>
-          <aside id="colorlib-aside" className="border js-fullheight">
+          <aside
+            id="colorlib-aside"
+            className="border js-fullheight"
+            style={{ overflow: "hidden" }}
+          >
             <div className="text-center">
               <div
                 className="author-img"
