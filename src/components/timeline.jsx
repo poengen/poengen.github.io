@@ -33,8 +33,8 @@ export default class Timeline extends Component {
                           CTO at Frait <span>2022 - present</span>
                         </h2>
                         <p>
-                          Frait is an early stage start-up providing a digital
-                          platform for freight forwarding.
+                          Frait is an early stage start-up building a digital
+                          freight forwarding platform.
                           <br />
                           <b>Skills: </b>Node.js, React, Figma, AWS, RestAPI,
                           GraphQL, MongoDB, Auth0
@@ -83,8 +83,8 @@ export default class Timeline extends Component {
                           software consultant, helping clients develop their
                           quality testing initiatives.
                           <br />
-                          <b>Skills: </b>Node.js, Test Automation Development,
-                          Management Consulting
+                          <b>Skills: </b>Node.js, React, GraphQL, Test
+                          Automation Development, Management Consulting
                         </p>
                       </div>
                     </div>
@@ -107,7 +107,8 @@ export default class Timeline extends Component {
                           consultant at Capgemini Sogeti, working on projects in
                           the financial sector.
                           <br />
-                          <b>Skills: </b>Quality Consulting
+                          <b>Skills: </b>Quality Consulting, SQL, Functional
+                          Testing
                         </p>
                       </div>
                     </div>

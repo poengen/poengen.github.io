@@ -48,7 +48,7 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                   </span>
                   <div className="desc">
-                    <h3>Fullstack Developer</h3>
+                    <h3>Fullstack Development</h3>
                     <p>
                       I have enjoyed working on multiple web app projects, and I
                       really like to be able to learn a lot of everything. Some
@@ -65,7 +65,7 @@ export default class About extends Component {
                     <i className="icon-data" />
                   </span>
                   <div className="desc">
-                    <h3>Quality and Devops Engineer</h3>
+                    <h3>Quality and Devops Engineering</h3>
                     <p>
                       Working with quality assurance like automated testing and
                       CI/CD is one of my specialities. I believe that a strong
@@ -83,14 +83,13 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                   </span>
                   <div className="desc">
-                    <h3>Project Manager</h3>
+                    <h3>Project Management</h3>
                     <p>
-                      I try being an inclusive and goal-oriented leader. I've
-                      have had project lead and squad lead roles, working with
-                      scrum teams of 5-10 people. I have strong knowledge of
-                      agile methodologies and project managemenet related tools
-                      such as Jira and Confluence. I am also PRINCE2® and Scrum
-                      Master certified.
+                      I try being inclusive and goal-oriented when working with
+                      teams. I've been project and squad lead in a team of 5-10
+                      people. I have strong knowledge of agile methodologies and
+                      project managemenet related tools such as Jira and
+                      Confluence. I am PRINCE2® and Scrum Master™ certified.
                     </p>
                   </div>
                 </div>
