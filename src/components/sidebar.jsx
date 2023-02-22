@@ -64,8 +64,14 @@ export default class Sidebar extends Component {
               </div>
             </nav>
             <nav id="colorlib-main-menu">
-              <ul>
-                <li>
+              <ul
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  "align-items": "center",
+                }}
+              >
+                <li className="social-logos">
                   <a
                     href="https://www.facebook.com/paloskar"
                     target="_blank"
@@ -90,7 +96,7 @@ export default class Sidebar extends Component {
                     </svg>
                   </a>
                 </li>
-                <li>
+                <li className="social-logos">
                   <a
                     href="https://twitter.com/paloskarengen"
                     target="_blank"
@@ -115,7 +121,7 @@ export default class Sidebar extends Component {
                     </svg>
                   </a>
                 </li>
-                <li>
+                <li className="social-logos">
                   <a
                     href="https://www.instagram.com/paloskar"
                     target="_blank"
@@ -140,7 +146,7 @@ export default class Sidebar extends Component {
                     </svg>
                   </a>
                 </li>
-                <li>
+                <li className="social-logos">
                   <a
                     href="https://www.linkedin.com/in/paloskar"
                     target="_blank"
@@ -165,7 +171,7 @@ export default class Sidebar extends Component {
                     </svg>
                   </a>
                 </li>
-                <li>
+                <li className="social-logos">
                   <a
                     href="https://github.com/poengen"
                     target="_blank"
@@ -190,7 +196,7 @@ export default class Sidebar extends Component {
                     </svg>
                   </a>
                 </li>
-                <li>
+                <li className="social-logos">
                   <a
                     href="https://www.strava.com/athletes/2242743"
                     target="_blank"
