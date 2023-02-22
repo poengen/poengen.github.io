@@ -26,8 +26,15 @@ export default class Sidebar extends Component {
               <h1 id="colorlib-logo">
                 <a href="index.html">Pål Oskar Engen</a>
               </h1>
-              <span className="email">
-                <i className="icon-mail" />
+              <span
+                className="email"
+                style={{
+                  "margin-bottom": "10px",
+                  display: "flex",
+                  "justify-content": "center",
+                }}
+              >
+                <i className="icon-mail" style={{ "margin-right": "5px" }} />
                 pal.oskar.engen@gmail.com
               </span>
             </div>
