@@ -181,7 +181,7 @@ export default class Sidebar extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://strava.com/paloskar"
+                    href="https://www.strava.com/athletes/2242743"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
