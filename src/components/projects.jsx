@@ -53,7 +53,7 @@ export default class Projects extends Component {
                   <div className="desc">
                     <div className="con">
                       <h3>
-                        <a href="https://main.d1rz7o3vemoq9w.amplifyapp.com/">
+                        <a href="https://www.fjelldatabasen.no">
                           Fjelldatabasen
                         </a>
                       </h3>
