@@ -4,11 +4,7 @@ export default class Introduction extends Component {
   render() {
     return (
       <div>
-        <section
-          id="colorlib-hero"
-          className="js-fullheight"
-          data-section="home"
-        >
+        <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
               <li
@@ -29,8 +25,8 @@ export default class Introduction extends Component {
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="/assets/CV_paloskar.pdf"
-                              download="CV_paloskar.pdf"
+                              href="/assets/CV_paloskar_24_mai_2023.pdf"
+                              download="CV_paloskar_24_mai_2023.pdf"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

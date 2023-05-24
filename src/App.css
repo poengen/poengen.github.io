@@ -36,3 +36,10 @@
 .social-logos {
   width: 40px;
 }
+
+.cv-download a {
+  margin-top: 25px;
+  font-weight: 600;
+  background-color: transparent;
+  border-color: black;
+}

@@ -15,11 +15,7 @@ export default class Sidebar extends Component {
           >
             <i />
           </nav>
-          <aside
-            id="colorlib-aside"
-            className="border js-fullheight"
-            style={{ overflow: "hidden" }}
-          >
+          <aside id="colorlib-aside" className="border js-fullheight" style={{ overflow: "hidden" }}>
             <div className="text-center">
               <div
                 className="author-img"
@@ -72,11 +68,7 @@ export default class Sidebar extends Component {
                 }}
               >
                 <li className="social-logos">
-                  <a
-                    href="https://www.facebook.com/paloskar"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://www.facebook.com/paloskar" target="_blank" rel="noopener noreferrer">
                     <svg
                       aria-hidden="true"
                       data-prefix="fab"
@@ -97,11 +89,7 @@ export default class Sidebar extends Component {
                   </a>
                 </li>
                 <li className="social-logos">
-                  <a
-                    href="https://twitter.com/paloskarengen"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://twitter.com/paloskarengen" target="_blank" rel="noopener noreferrer">
                     <svg
                       aria-hidden="true"
                       data-prefix="fab"
@@ -122,11 +110,7 @@ export default class Sidebar extends Component {
                   </a>
                 </li>
                 <li className="social-logos">
-                  <a
-                    href="https://www.instagram.com/paloskar"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://www.instagram.com/paloskar" target="_blank" rel="noopener noreferrer">
                     <svg
                       aria-hidden="true"
                       data-prefix="fab"
@@ -147,11 +131,7 @@ export default class Sidebar extends Component {
                   </a>
                 </li>
                 <li className="social-logos">
-                  <a
-                    href="https://www.linkedin.com/in/paloskar"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://www.linkedin.com/in/paloskar" target="_blank" rel="noopener noreferrer">
                     <svg
                       aria-hidden="true"
                       data-prefix="fab"
@@ -172,11 +152,7 @@ export default class Sidebar extends Component {
                   </a>
                 </li>
                 <li className="social-logos">
-                  <a
-                    href="https://github.com/poengen"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://github.com/poengen" target="_blank" rel="noopener noreferrer">
                     <svg
                       aria-hidden="true"
                       data-prefix="fab"
@@ -197,11 +173,7 @@ export default class Sidebar extends Component {
                   </a>
                 </li>
                 <li className="social-logos">
-                  <a
-                    href="https://www.strava.com/athletes/2242743"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://www.strava.com/athletes/2242743" target="_blank" rel="noopener noreferrer">
                     <svg
                       aria-hidden="true"
                       data-prefix="fab"
@@ -219,6 +191,17 @@ export default class Sidebar extends Component {
                         className=""
                       ></path>
                     </svg>
+                  </a>
+                </li>
+                <li className="cv-download">
+                  <a
+                    className="btn btn-primary btn-learn"
+                    href="/assets/CV_paloskar_24_mai_2023.pdf"
+                    download="CV_paloskar_24_mai_2023.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View my CV <i className="icon-download4" />
                   </a>
                 </li>
               </ul>
