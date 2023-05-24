@@ -1,3 +1,22 @@
+## Getting started
+
+```bash
+# Install dependencies
+npm install
+
+# Run the project in http://localhost:3000
+npm start
+
+# Build
+npm run build
+
+# Deploy
+npm run deploy
+```
+
+</br>
+</br>
+
 ## Available Scripts
 
 In the project directory, you can run:
