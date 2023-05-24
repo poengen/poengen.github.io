@@ -197,9 +197,9 @@ export default class Sidebar extends Component {
                   <a
                     className="btn btn-primary btn-learn"
                     href="/assets/CV_paloskar_24_mai_2023.pdf"
-                    download="CV_paloskar_24_mai_2023.pdf"
+                    /* download="CV_paloskar_24_mai_2023.pdf" */
                     target="_blank"
-                    rel="noopener noreferrer"
+                    /* rel="noopener noreferrer" */
                   >
                     View my CV <i className="icon-download4" />
                   </a>
